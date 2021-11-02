@@ -1,6 +1,6 @@
 //1
 function areBothSame(x, y){
-  if(x === y) {
+  if(x == y) {
       return true
   }
   else {
@@ -10,7 +10,7 @@ function areBothSame(x, y){
 
 //2
 function areBothEqual(x, y){
-    if(x == y) {
+    if(x === y) {
         return true
     }
     else {
@@ -20,15 +20,23 @@ function areBothEqual(x, y){
 
 //3
 function areAllFourEqual(a, b, c, d){
-    if(a == b && c == d) {
+    if(a === b && a === c && a === d) {
         return true
+    }
+    else {
+        return false
     }
 }
 
 
 //4
-function areAllFourSame(){
-  
+function areAllFourSame(a, b, c, d){
+  if(a == b && a == c && a == d) {
+        return true
+    }
+    else {
+        return false
+    }
 }
 
 //5
