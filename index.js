@@ -1,16 +1,28 @@
 //1
-function areBothSame(){
-  
+function areBothSame(x, y){
+  if(x === y) {
+      return true
+  }
+  else {
+      return false
+  }
 }
 
 //2
-function areBothEqual(){
-  
+function areBothEqual(x, y){
+    if(x == y) {
+        return true
+    }
+    else {
+        return false
+    }
 }
 
 //3
-function areAllFourEqual(){
-  
+function areAllFourEqual(a, b, c, d){
+    if(a == b && c == d) {
+        return true
+    }
 }
 
 
